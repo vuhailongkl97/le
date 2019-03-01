@@ -1,0 +1,27 @@
+
+ 3084826368 ok write to file 0 at  3110 
+
+
+ 3084823360 ok write to file 0 at  3208 
+
+
+ 3019885376 ok write to file 0 at  3475051 
+
+
+ 3084823360 ok write to file 0 at  3711 
+
+
+ 3063937856 ok write to file 0 at  5477 
+
+
+ 3047152448 ok write to file 0 at  7131 
+
+
+ 3030367040 ok write to file 0 at  8766 
+
+
+ 3084823360 ok write to file 0 at  2984 
+
+
+ 3036670784 ok write to file 0 at  3856921 
+

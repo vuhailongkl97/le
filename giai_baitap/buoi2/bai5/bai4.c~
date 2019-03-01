@@ -1,0 +1,66 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+#define linkconf "/etc/foo.conf"
+#define linkfoolib "/usr/bin/libfoo.so"
+#define link4run "/bin/test"
+
+int copyFile(char *f1 , char* f2 ){
+		
+	int fd1 , fd2 ;	
+	char * buffer  =(char *) malloc(sizeof(char)*200);
+
+	if ( (fd1 = open(f1,O_RDONLY)) ==-1 )
+	{
+		printf("error open file %s\n " , f1);
+	}
+	if ( (fd2 = open(f2,O_CREAT| O_WRONLY)) ==-1 )
+	{
+		printf("error open file %s\n " , f2);
+	}
+
+	while(read(fd1 , buffer , 200) > 0)	
+	{
+		 //if(write(fd2 , buffer , 200))
+			{
+				puts(buffer);
+			}
+	}	
+	free(buffer);
+	close(fd1);
+	close(fd2);
+	return 0;
+}
+int main(){
+	
+	int fd ;	
+	
+	copyFile("README" , "README2");
+	#if 0
+	// step 1 
+	if(creat(linkconf)  != -1 )
+	{
+		puts("step 1 create link configure ok");
+		//step 2 
+		if( (fd = creat(linkfoolib) != -1 )
+		{
+			
+			puts("step 2 copy libfoo.so to usr/bin  ok");
+			//step 3
+			if( (fd = creat(link4run) != -1 )
+			{
+				
+				puts("step 3 copy test to /bin  ok");
+			}
+			
+		}
+	
+	}
+	#endif
+	
+	
+	return 0;
+}

@@ -1,0 +1,21 @@
+
+ 3076430656 ok write to file 1 at  3398 
+
+
+ 3011492672 ok write to file 1 at  3475082 
+
+
+ 3074423616 ok write to file 1 at  4371 
+
+
+ 3055545152 ok write to file 1 at  6245 
+
+
+ 3038759744 ok write to file 1 at  7824 
+
+
+ 3076430656 ok write to file 1 at  3108 
+
+
+ 3011492672 ok write to file 1 at  3857729 
+

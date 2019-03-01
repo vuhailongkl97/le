@@ -1,0 +1,6 @@
+a1.txt
+a.out
+bai1.c
+datals.txt
+misc-module
+shared_lib

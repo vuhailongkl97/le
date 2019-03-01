@@ -1,0 +1,1 @@
+cmd_/home/longvh/Desktop/tempUbuntu/misc-module/misc-module/misc-module.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/longvh/Desktop/tempUbuntu/misc-module/misc-module/misc-module.ko /home/longvh/Desktop/tempUbuntu/misc-module/misc-module/misc-module.o /home/longvh/Desktop/tempUbuntu/misc-module/misc-module/misc-module.mod.o ;  true
